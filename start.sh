@@ -1,7 +1,3 @@
-#! bin/bash
-while true
-do
-	bash log.sh 1000
-	sleep 10s
-	bash hodor.sh
-done
+#! /bin/bash
+* * * * * /log.sh 1000
+*/5 * * * * /hodor.sh
